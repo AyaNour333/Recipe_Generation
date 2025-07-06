@@ -1,0 +1,9 @@
+.logo{
+    text-align: center;
+    padding: 15px;
+    font-family: "Merienda", cursive;
+}
+.logo span{
+    color: #9A3B3B;
+    font-size: 40px;
+}

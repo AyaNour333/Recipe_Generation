@@ -1,0 +1,21 @@
+.recipeBox{
+    background-color: #9A3B3B;
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+    box-shadow: 9px -9px 4px 0px #594c3b;
+}
+.cal{
+    width: fit-content;
+    margin: 20px auto 0;
+    background-color: #eac08a;
+    padding: 10px 20px;
+    color: #9a3b3b;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.cal span{
+    color: #3c3400;
+    font-size: 19px;
+}

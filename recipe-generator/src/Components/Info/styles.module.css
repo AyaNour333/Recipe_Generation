@@ -1,0 +1,112 @@
+.working{
+    padding: 40px;
+    background-color: #231212;
+    color: white;
+    /* background-image: url('../../assets/imgs/floatingtreeleaf.png');
+    background-size: contain; */
+}
+.working span{
+    font-family: "Merienda", cursive;
+    font-size: 18px;
+    color: #fee042;
+}
+.working h2{
+    font-size: 41px;
+    margin-bottom: 20px;
+}
+.working p{
+    width: 500px;
+    text-align: center;
+    font-size: 17px;
+}
+.steps{
+    display: flex;
+    width: 100%;
+}
+.steps .step{
+    width: 500px;
+    text-align: center;
+    position: relative;
+}
+.steps .step .image{
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    right: 20px;
+    animation: up-down 2s ease-in-out infinite alternate;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate;
+}
+.steps .step div{
+    position: relative;
+    z-index: 2;
+}
+.steps .step:nth-child(even) {
+    align-self: flex-end;
+}
+.steps .step:nth-child(3) h3{
+    background-color: #9a3b3b;
+    padding: 10px 15px;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.steps .step:nth-child(3) div{
+    position: relative;
+    margin-top: 20px;
+}
+.steps .step:nth-child(3) p{
+    background-color: #9a3b3b;
+}
+.steps .step p{
+    background-color: #a9950e;
+    padding: 20px;
+    transform: skewX(-15deg);
+    -webkit-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    -o-transform: skewX(-15deg);
+    margin-top: 20px;
+}
+
+
+@keyframes up-down {
+    from{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+    to{
+        transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+        -moz-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+        -o-transform: translateY(30px);
+}
+}
+
+
+
+
+
+/* .steps .step{
+    width: 525px;
+}
+.steps .step:nth-child(3) div{
+    position: relative;
+    margin-top: 20px;
+    padding: 17px 13px;
+}
+.steps .step:nth-child(3) div::before{
+    content: '';
+    position: absolute;
+    background-color: #9a3b3b;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: skewX(-15deg);
+    z-index: 0;
+} */
